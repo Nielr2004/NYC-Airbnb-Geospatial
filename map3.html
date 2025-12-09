@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_84e259c4d96f6f452971361288546e17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_84e259c4d96f6f452971361288546e17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_84e259c4d96f6f452971361288546e17 = L.map(
+                "map_84e259c4d96f6f452971361288546e17",
+                {
+                    center: [40.73061, -73.935242],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_04534f573ed6e1cd9a14dd150a062776 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_04534f573ed6e1cd9a14dd150a062776.addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var marker_1d8872e747635410a2ed6d6fe5e74c3a = L.marker(
+                [40.76489, -73.98493],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_f4962f96ca7c1727ba10467afaae9df3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1d8872e747635410a2ed6d6fe5e74c3a.bindTooltip(
+                `<div>
+                     Large Furnished Room Near B'way  ($79)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d8872e747635410a2ed6d6fe5e74c3a.setIcon(icon_f4962f96ca7c1727ba10467afaae9df3);
+            
+    
+            var marker_839c81be9b2ec64f9989de699e07ae42 = L.marker(
+                [40.80178, -73.96723],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_704c91b1a6913fc4ba68778c6f517ab6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_839c81be9b2ec64f9989de699e07ae42.bindTooltip(
+                `<div>
+                     Cozy Clean Guest Room - Family Apt ($79)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_839c81be9b2ec64f9989de699e07ae42.setIcon(icon_704c91b1a6913fc4ba68778c6f517ab6);
+            
+    
+            var marker_1926eaf7f5e9fde0836d9542c53bc034 = L.marker(
+                [40.76076, -73.98867],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_f409635c11fa2ea1de6b353c5dc8597f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1926eaf7f5e9fde0836d9542c53bc034.bindTooltip(
+                `<div>
+                     Central Manhattan/near Broadway ($85)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1926eaf7f5e9fde0836d9542c53bc034.setIcon(icon_f409635c11fa2ea1de6b353c5dc8597f);
+            
+    
+            var marker_ae352337187872c96d5a008834beab83 = L.marker(
+                [40.79826, -73.96113],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_8e9e05c386fdede554874b2feb73fefc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ae352337187872c96d5a008834beab83.bindTooltip(
+                `<div>
+                     Wonderful Guest Bedroom in Manhattan for SINGLES ($85)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae352337187872c96d5a008834beab83.setIcon(icon_8e9e05c386fdede554874b2feb73fefc);
+            
+    
+            var marker_422e3fc63b32a15d607b0ee071068d64 = L.marker(
+                [40.74192, -73.99501],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_d9ee8b3e2c69a2bdc9d1e5eb27ce5612 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_422e3fc63b32a15d607b0ee071068d64.bindTooltip(
+                `<div>
+                     Chelsea Perfect ($140)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_422e3fc63b32a15d607b0ee071068d64.setIcon(icon_d9ee8b3e2c69a2bdc9d1e5eb27ce5612);
+            
+    
+            var marker_b8f5dfeeb4c1b80d8cbd181ff5cb793e = L.marker(
+                [40.86482, -73.92106],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_7a65634a97758f214084f048ba9d1afd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b8f5dfeeb4c1b80d8cbd181ff5cb793e.bindTooltip(
+                `<div>
+                     SPACIOUS, LOVELY FURNISHED MANHATTAN BEDROOM ($44)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8f5dfeeb4c1b80d8cbd181ff5cb793e.setIcon(icon_7a65634a97758f214084f048ba9d1afd);
+            
+    
+            var marker_4405cab3de846a9fb39e6e39a0b059ba = L.marker(
+                [40.82245, -73.95104],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_9885d86400a5c8f7cd7633b817522e76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4405cab3de846a9fb39e6e39a0b059ba.bindTooltip(
+                `<div>
+                     front room/double bed ($50)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4405cab3de846a9fb39e6e39a0b059ba.setIcon(icon_9885d86400a5c8f7cd7633b817522e76);
+            
+    
+            var marker_2d4cc3693a446b51387ed56a93253113 = L.marker(
+                [40.8213, -73.95318],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_f6a3fa21ea971a5019008e204da9fe65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2d4cc3693a446b51387ed56a93253113.bindTooltip(
+                `<div>
+                     back room/bunk beds ($50)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2d4cc3693a446b51387ed56a93253113.setIcon(icon_f6a3fa21ea971a5019008e204da9fe65);
+            
+    
+            var marker_cd3158ffa00a444cc4e47158d681b4f2 = L.marker(
+                [40.71401, -73.98917],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_1a5629ec2e4dedc0e4eabb61011b5401 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cd3158ffa00a444cc4e47158d681b4f2.bindTooltip(
+                `<div>
+                     LowerEastSide apt share shortterm 1 ($40)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd3158ffa00a444cc4e47158d681b4f2.setIcon(icon_1a5629ec2e4dedc0e4eabb61011b5401);
+            
+    
+            var marker_bceaad7995595e5750c9acf4d76bd6bc = L.marker(
+                [40.7229, -73.98199],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_115ab8101f21e16404045ffb86606aea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bceaad7995595e5750c9acf4d76bd6bc.bindTooltip(
+                `<div>
+                     ENJOY Downtown NYC! ($68)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bceaad7995595e5750c9acf4d76bd6bc.setIcon(icon_115ab8101f21e16404045ffb86606aea);
+            
+    
+            var marker_8bcf88dbaabf159a9f23177df9b5e85a = L.marker(
+                [40.75531, -73.99293],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_195f00e3a876750e7133a54cadf8b9e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8bcf88dbaabf159a9f23177df9b5e85a.bindTooltip(
+                `<div>
+                     Best Location in NYC! TIMES SQUARE! ($69)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8bcf88dbaabf159a9f23177df9b5e85a.setIcon(icon_195f00e3a876750e7133a54cadf8b9e3);
+            
+    
+            var marker_8fb5e5ba5534376aa1459d1b5a2f76c8 = L.marker(
+                [40.75979, -73.99119],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_a04c80b7f1d0aea005e582d7382f3cc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8fb5e5ba5534376aa1459d1b5a2f76c8.bindTooltip(
+                `<div>
+                     Your Heaven in Hells Kitchen ($52)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8fb5e5ba5534376aa1459d1b5a2f76c8.setIcon(icon_a04c80b7f1d0aea005e582d7382f3cc5);
+            
+    
+            var marker_5a49a2c123a89120d55c0f395fe4e466 = L.marker(
+                [40.72649, -73.97904],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_85a20955fa3acf19ec7e0d35a1379ebf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5a49a2c123a89120d55c0f395fe4e466.bindTooltip(
+                `<div>
+                     Sunny, Modern room in East Village! ($80)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a49a2c123a89120d55c0f395fe4e466.setIcon(icon_85a20955fa3acf19ec7e0d35a1379ebf);
+            
+    
+            var marker_9b32ee8e19f89b6bf290536771707b30 = L.marker(
+                [40.72298, -73.98474],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_21206bf21247588b864a55add10b6d81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9b32ee8e19f89b6bf290536771707b30.bindTooltip(
+                `<div>
+                     Large Room in Amazing East Village Apt ($99)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b32ee8e19f89b6bf290536771707b30.setIcon(icon_21206bf21247588b864a55add10b6d81);
+            
+    
+            var marker_93e91ac317748dca3c666489706ab27a = L.marker(
+                [40.72334, -73.9844],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_32bc7452bcf9c3162ee92ad293cfbc50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_93e91ac317748dca3c666489706ab27a.bindTooltip(
+                `<div>
+                     Oh glorious spring! ($60)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_93e91ac317748dca3c666489706ab27a.setIcon(icon_32bc7452bcf9c3162ee92ad293cfbc50);
+            
+    
+            var marker_c641591ffca7e9cefc6c79220240b453 = L.marker(
+                [40.8092, -73.94421],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_e3c099e698353710828f251c7ad59425 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c641591ffca7e9cefc6c79220240b453.bindTooltip(
+                `<div>
+                     1,800 sq foot in luxury building ($100)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c641591ffca7e9cefc6c79220240b453.setIcon(icon_e3c099e698353710828f251c7ad59425);
+            
+    
+            var marker_cefa76aa67baff42200ce799e3c22d7e = L.marker(
+                [40.75527, -73.99291],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_2eec23c778b9069f897d3e8b4c063224 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cefa76aa67baff42200ce799e3c22d7e.bindTooltip(
+                `<div>
+                     Times Square, Safe, Clean and Cozy! ($59)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cefa76aa67baff42200ce799e3c22d7e.setIcon(icon_2eec23c778b9069f897d3e8b4c063224);
+            
+    
+            var marker_8e98c931948ac38ff3bb881c05a3e8f8 = L.marker(
+                [40.81618, -73.94894],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_47ef29de2be75723c81d00487335fe53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8e98c931948ac38ff3bb881c05a3e8f8.bindTooltip(
+                `<div>
+                     ACCOMMODATIONS GALORE #1 ($120)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8e98c931948ac38ff3bb881c05a3e8f8.setIcon(icon_47ef29de2be75723c81d00487335fe53);
+            
+    
+            var marker_f1fea4dc972f988e33e67a0671de4518 = L.marker(
+                [40.77456, -73.95323],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_89937a4caa3abb4ecc564285e34931a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f1fea4dc972f988e33e67a0671de4518.bindTooltip(
+                `<div>
+                     CENTRAL PARK LOFT all for YOU ($99)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f1fea4dc972f988e33e67a0671de4518.setIcon(icon_89937a4caa3abb4ecc564285e34931a4);
+            
+    
+            var marker_111dc77babe807a9f2853840b510164b = L.marker(
+                [40.80549, -73.95924],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_02116e76cc3b1468187e0d22a80e5c41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_111dc77babe807a9f2853840b510164b.bindTooltip(
+                `<div>
+                     Couldn't Be Closer To Columbia Uni ($99)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_111dc77babe807a9f2853840b510164b.setIcon(icon_02116e76cc3b1468187e0d22a80e5c41);
+            
+    
+            var marker_7df994a5a79246a10ec5af4bf84a4b67 = L.marker(
+                [40.76834, -73.95334],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_22477c61c39f566206f1965a6f011e4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7df994a5a79246a10ec5af4bf84a4b67.bindTooltip(
+                `<div>
+                     NEW YORK CITY, 1 BDRM.(NEAR CENTRAL PARK & METRO) ($75)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7df994a5a79246a10ec5af4bf84a4b67.setIcon(icon_22477c61c39f566206f1965a6f011e4a);
+            
+    
+            var marker_8c5ad8845c0513b1eaeae0b9659a03d3 = L.marker(
+                [40.72319, -73.99201],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_dd47994f4d688568bf739d52698aadde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8c5ad8845c0513b1eaeae0b9659a03d3.bindTooltip(
+                `<div>
+                     Lower East Side $57~/night ($83)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8c5ad8845c0513b1eaeae0b9659a03d3.setIcon(icon_dd47994f4d688568bf739d52698aadde);
+            
+    
+            var marker_fddf769ae7ee63634f4f2f0ba302293f = L.marker(
+                [40.74859, -73.99671],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_f7e4c05b56bee03642d3abf89b7788c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fddf769ae7ee63634f4f2f0ba302293f.bindTooltip(
+                `<div>
+                     Prime Location in Manhattan ($123)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fddf769ae7ee63634f4f2f0ba302293f.setIcon(icon_f7e4c05b56bee03642d3abf89b7788c1);
+            
+    
+            var marker_2b0ef466e0c0470ca993767829244f2d = L.marker(
+                [40.81035, -73.94598],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_40c3d0f46c134d2da1ed91ed6a1e5692 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2b0ef466e0c0470ca993767829244f2d.bindTooltip(
+                `<div>
+                     City Room - Private Penthouse Apt. ($121)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b0ef466e0c0470ca993767829244f2d.setIcon(icon_40c3d0f46c134d2da1ed91ed6a1e5692);
+            
+    
+            var marker_7d6feec55b9cc556fe96c78c31c825b8 = L.marker(
+                [40.79958, -73.94275],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_bbb06a0bbf4231d6bed00ae213fa300f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7d6feec55b9cc556fe96c78c31c825b8.bindTooltip(
+                `<div>
+                     Great apartment with private bathroom and entrance ($100)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7d6feec55b9cc556fe96c78c31c825b8.setIcon(icon_bbb06a0bbf4231d6bed00ae213fa300f);
+            
+    
+            var marker_9d134257d1ea4031dae85d37e181efb5 = L.marker(
+                [40.72773, -73.99134],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_6c0c8d0b803297f012ee97baa05ef932 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9d134257d1ea4031dae85d37e181efb5.bindTooltip(
+                `<div>
+                     NOHO/EAST VILLAGE, PRIVATE 1/2 BATH ($130)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9d134257d1ea4031dae85d37e181efb5.setIcon(icon_6c0c8d0b803297f012ee97baa05ef932);
+            
+    
+            var marker_137299a8ff2a1ba8638b121dd3ce56dc = L.marker(
+                [40.72752, -73.98432],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_0d12cc2e49f9c4c1063a696d83fb1393 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_137299a8ff2a1ba8638b121dd3ce56dc.bindTooltip(
+                `<div>
+                     Cozy East Village Railroad 1 Bed! ($130)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_137299a8ff2a1ba8638b121dd3ce56dc.setIcon(icon_0d12cc2e49f9c4c1063a696d83fb1393);
+            
+    
+            var marker_0347d0b90cebf8c46be24ba9913cfa61 = L.marker(
+                [40.81219, -73.94499],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_20cd7577d34f85440a8a14f5e5a8b55b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0347d0b90cebf8c46be24ba9913cfa61.bindTooltip(
+                `<div>
+                     City Room - Private & Comfy Bedroom ($64)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0347d0b90cebf8c46be24ba9913cfa61.setIcon(icon_20cd7577d34f85440a8a14f5e5a8b55b);
+            
+    
+            var marker_a11021ba5ced1ed6c2f38b3f064fba28 = L.marker(
+                [40.8251, -73.94287],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_e66541949ff7c20823e988a3d668a41b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a11021ba5ced1ed6c2f38b3f064fba28.bindTooltip(
+                `<div>
+                     PRIVATE Room on Historic Sugar Hill ($60)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a11021ba5ced1ed6c2f38b3f064fba28.setIcon(icon_e66541949ff7c20823e988a3d668a41b);
+            
+    
+            var marker_b9523ecfa587d91c8bd1717989725406 = L.marker(
+                [40.79163, -73.94573],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_41f01c310b1f532c524a78d547c47139 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b9523ecfa587d91c8bd1717989725406.bindTooltip(
+                `<div>
+                     SpaHa Studio Monthly Rental ($125)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9523ecfa587d91c8bd1717989725406.setIcon(icon_41f01c310b1f532c524a78d547c47139);
+            
+    
+            var marker_9288b237cebe3081982bf3529d575ecb = L.marker(
+                [40.8118, -73.94434],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_2d19b4cd908444344c947551ee84ec06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9288b237cebe3081982bf3529d575ecb.bindTooltip(
+                `<div>
+                     City Room - Private Luxury Suite ($92)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9288b237cebe3081982bf3529d575ecb.setIcon(icon_2d19b4cd908444344c947551ee84ec06);
+            
+    
+            var marker_4bbbeb4c88492e8c52c1e4927474b3d2 = L.marker(
+                [40.72654, -73.98049],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_905a1755ad7bd5ae588cdc53b1f2b80e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4bbbeb4c88492e8c52c1e4927474b3d2.bindTooltip(
+                `<div>
+                     The gem of the East Village ($99)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4bbbeb4c88492e8c52c1e4927474b3d2.setIcon(icon_905a1755ad7bd5ae588cdc53b1f2b80e);
+            
+    
+            var marker_6686ee11147c8a190865f168ea45d399 = L.marker(
+                [40.80942, -73.93936],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_35de3304f14e9aa38b960ade5b440e09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6686ee11147c8a190865f168ea45d399.bindTooltip(
+                `<div>
+                     ACCOMMODATIONS GALORE #2 ($140)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6686ee11147c8a190865f168ea45d399.setIcon(icon_35de3304f14e9aa38b960ade5b440e09);
+            
+    
+            var marker_e0c95c80f0bdaabfdad152aa72513c18 = L.marker(
+                [40.71445, -73.9908],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_680b80dee9bdbf3c2a817e547bc16d24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e0c95c80f0bdaabfdad152aa72513c18.bindTooltip(
+                `<div>
+                     Exclusive Room with Private Bath in  LES ($120)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e0c95c80f0bdaabfdad152aa72513c18.setIcon(icon_680b80dee9bdbf3c2a817e547bc16d24);
+            
+    
+            var marker_bfc3f36939d944c9ef2e6e87620bbaac = L.marker(
+                [40.72321, -73.98157],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_5c589d1c49bd48198bde2c6587093720 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bfc3f36939d944c9ef2e6e87620bbaac.bindTooltip(
+                `<div>
+                     ENJOY Downtown NYC!! ($68)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bfc3f36939d944c9ef2e6e87620bbaac.setIcon(icon_5c589d1c49bd48198bde2c6587093720);
+            
+    
+            var marker_d9cf1ad3e4bbec12efd2eca1ff6a99b4 = L.marker(
+                [40.77956, -73.98098],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_92cafeb5a0c29fa9d3b59859ea7d8ae9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d9cf1ad3e4bbec12efd2eca1ff6a99b4.bindTooltip(
+                `<div>
+                     Charming UWS Treehouse Apt ($115)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d9cf1ad3e4bbec12efd2eca1ff6a99b4.setIcon(icon_92cafeb5a0c29fa9d3b59859ea7d8ae9);
+            
+    
+            var marker_234d84030157d49fcace72fc41a3a799 = L.marker(
+                [40.71904, -73.99392],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_7ce3e12ca1944ebd1d8d43e6c8035de9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_234d84030157d49fcace72fc41a3a799.bindTooltip(
+                `<div>
+                     Lower East Side Magic Room ($95)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_234d84030157d49fcace72fc41a3a799.setIcon(icon_7ce3e12ca1944ebd1d8d43e6c8035de9);
+            
+    
+            var marker_55f3756d68fc37e54af6b4e29e06133c = L.marker(
+                [40.81322, -73.95306],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_994651a5fd4a42fd87b79657a9da77f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_55f3756d68fc37e54af6b4e29e06133c.bindTooltip(
+                `<div>
+                     West Harlem Home Base - Eco-Apt. ($135)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55f3756d68fc37e54af6b4e29e06133c.setIcon(icon_994651a5fd4a42fd87b79657a9da77f1);
+            
+    
+            var marker_7e40f512635f71d2a3f070ca94f22234 = L.marker(
+                [40.80082, -73.9652],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_57991b327fbc337496a6107114f6907b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7e40f512635f71d2a3f070ca94f22234.bindTooltip(
+                `<div>
+                     Cozy room in Upper West Side ($109)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7e40f512635f71d2a3f070ca94f22234.setIcon(icon_57991b327fbc337496a6107114f6907b);
+            
+    
+            var marker_ed0123257c9ded4c89a86c254fc7ed20 = L.marker(
+                [40.86713, -73.92811],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_06925b7aa30ddef910d7160c02c426b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ed0123257c9ded4c89a86c254fc7ed20.bindTooltip(
+                `<div>
+                     Private Bedroom in Large NYC Apartment ($90)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed0123257c9ded4c89a86c254fc7ed20.setIcon(icon_06925b7aa30ddef910d7160c02c426b3);
+            
+    
+            var marker_aa13b6377e8f14e5c7aa3a95887860a7 = L.marker(
+                [40.72329, -73.98486],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_24e77d0e4676b03fff79f4ea245e0ca3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_aa13b6377e8f14e5c7aa3a95887860a7.bindTooltip(
+                `<div>
+                     Cozy room in East Village with AC ($71)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aa13b6377e8f14e5c7aa3a95887860a7.setIcon(icon_24e77d0e4676b03fff79f4ea245e0ca3);
+            
+    
+            var marker_619da448841c411d07869e7d514647d2 = L.marker(
+                [40.72843, -73.98895],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_3d3eb9804d964c84335f2c8d390c162b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_619da448841c411d07869e7d514647d2.bindTooltip(
+                `<div>
+                     Large Studio--Heart of East Village ($139)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_619da448841c411d07869e7d514647d2.setIcon(icon_3d3eb9804d964c84335f2c8d390c162b);
+            
+    
+            var marker_dfef68968ffe547b6bc01d67a3909f4c = L.marker(
+                [40.71271, -73.99776],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_513e7ed5ed549d8ba1bc3bc81938f535 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_dfef68968ffe547b6bc01d67a3909f4c.bindTooltip(
+                `<div>
+                     Huge.Bright.Clean.Safe. Private Room ($95)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dfef68968ffe547b6bc01d67a3909f4c.setIcon(icon_513e7ed5ed549d8ba1bc3bc81938f535);
+            
+    
+            var marker_c15b667598f550645ad8ef9842922ea4 = L.marker(
+                [40.79406, -73.94102],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_dabc3206599991173ce72dcd7c9bc18f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c15b667598f550645ad8ef9842922ea4.bindTooltip(
+                `<div>
+                     Comfortable Cozy Space in El Barrio ($65)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c15b667598f550645ad8ef9842922ea4.setIcon(icon_dabc3206599991173ce72dcd7c9bc18f);
+            
+    
+            var marker_14ea5cb46ae607568976267ce8f9ad69 = L.marker(
+                [40.85295, -73.93361],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_ad0a07afcf77cc56524d68d1f7d0d1ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_14ea5cb46ae607568976267ce8f9ad69.bindTooltip(
+                `<div>
+                     MANHATTAN Neat, Nice, Bright ROOM ($67)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_14ea5cb46ae607568976267ce8f9ad69.setIcon(icon_ad0a07afcf77cc56524d68d1f7d0d1ee);
+            
+    
+            var marker_ae81e542163bad4473ac8e5f879a9457 = L.marker(
+                [40.82773, -73.95231],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_aa216135ae36897afc368913813d1d76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ae81e542163bad4473ac8e5f879a9457.bindTooltip(
+                `<div>
+                     Bright Room With A Great River View ($60)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae81e542163bad4473ac8e5f879a9457.setIcon(icon_aa216135ae36897afc368913813d1d76);
+            
+    
+            var marker_94fdbe2f24fc880e4b74ba4a74cc4a95 = L.marker(
+                [40.75835, -73.99193],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_c32c197f2a5322046b24c38045cbc3fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_94fdbe2f24fc880e4b74ba4a74cc4a95.bindTooltip(
+                `<div>
+                     Cozy room in Time Square! ($85)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_94fdbe2f24fc880e4b74ba4a74cc4a95.setIcon(icon_c32c197f2a5322046b24c38045cbc3fc);
+            
+    
+            var marker_8c9628a2c49c7fd121ac88bc7e74660e = L.marker(
+                [40.81822, -73.94095],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_7e1a785516b486228a2b73833757e9fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8c9628a2c49c7fd121ac88bc7e74660e.bindTooltip(
+                `<div>
+                     Your Stunning Vacation Apartment! ($99)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8c9628a2c49c7fd121ac88bc7e74660e.setIcon(icon_7e1a785516b486228a2b73833757e9fe);
+            
+    
+            var marker_fb9c46841fd8be9508c3208360f7e00d = L.marker(
+                [40.80481, -73.94794],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_0a4aeeb4e8f9d9337a5d337e0c83e518 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_fb9c46841fd8be9508c3208360f7e00d.bindTooltip(
+                `<div>
+                     NYC Studio for Rent in Townhouse ($110)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fb9c46841fd8be9508c3208360f7e00d.setIcon(icon_0a4aeeb4e8f9d9337a5d337e0c83e518);
+            
+    
+            var marker_2d3c2f25a898432d6f51dca60b8dd1d1 = L.marker(
+                [40.81333, -73.94453],
+                {
+}
+            ).addTo(map_84e259c4d96f6f452971361288546e17);
+        
+    
+            var icon_c5ff36181500fdb99e965ca4c16ed13a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2d3c2f25a898432d6f51dca60b8dd1d1.bindTooltip(
+                `<div>
+                     City Room - Street View Apt ($122)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2d3c2f25a898432d6f51dca60b8dd1d1.setIcon(icon_c5ff36181500fdb99e965ca4c16ed13a);
+            
+</script>
+</html>
