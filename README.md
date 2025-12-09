@@ -4,7 +4,7 @@
 A geospatial analysis of the New York City Airbnb market. This project uses **Location Intelligence** to identify "Tourist Traps" (High Price / Low Rating) vs. "Hidden Gems" (Low Price / High Rating) in Manhattan.
 
 ## 🗺️ Interactive Map Preview
-[**CLICK HERE FOR LIVE MAP**](https://nbviewer.org/)* 
+[**CLICK HERE FOR LIVE MAP**](https://nbviewer.org/)
 
 ## 📊 Key Insights
 * **Price Heatmap:** The highest density of expensive listings is not in Times Square, but in Tribeca/SoHo.
